@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_NEUROSYM",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "B",
+      "score": 9.821428571428571
+    },
+    "complexity_grade": "B",
+    "complexity_score": 9.821428571428571,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\_anticloud_egress.py\n    F 38:0 _is_frontier - A (4)\n    F 43:0 guarded_connect - A (4)\n    F 61:0 install - A (3)\n    F 33:0 is_offline - A (1)\n    C 29:0 EgressDenied - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experiments\\local_scheme_validation\\benchmark.py\n    F 49:0 run - D (26)\n    F 28:0 batch_from_ids - A (3)\n    F 39:0 main - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experiments\\local_scheme_validation\\build_disentangle_report.py\n    F 23:0 main - D (25)\n    F 11:0 pct - A (2)\n    F 15:0 pp - A (2)\n    F 19:0 ci_str - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experiments\\local_scheme_validation\\build_report.py\n    F 19:0 main - C (20)\n    F 103:0 write_notebook - C (11)\n    F 14:0 load - A (1)\n    F 15:0 pct - A (1)\n    F 16:0 ci - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experiments\\local_scheme_validation\\check_mechanism.py\n    F 9:0 main - B (7)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experiments\\local_scheme_validation\\evaluate.py\n    F 117:0 main - F (55)\n    F 55:0 evaluate_group - C (14)\n    F 97:0 compare - B (7)\n    F 32:0 summarize - A (4)\n    F 20:0 metric_arrays - A (2)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experim",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\_anticloud_egress.py - A (79.55)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experiments\\local_scheme_validation\\benchmark.py - A (42.80)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experiments\\local_scheme_validation\\build_disentangle_report.py - A (43.20)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_NEUROSYM\\UPSTREAM\\experi"
+  }
+}
